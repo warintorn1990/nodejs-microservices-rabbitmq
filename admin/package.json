@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-microservices-rabbitmq",
+  "version": "1.0.0",
+  "description": "nodejs-microservices-rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warintorn1990/nodejs-microservices-rabbitmq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warintorn1990/nodejs-microservices-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/warintorn1990/nodejs-microservices-rabbitmq#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.36"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.4.8",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  }
+}
