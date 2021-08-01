@@ -1,0 +1,14 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "username": "",
+  "password": "",
+  "database": "yt_node_admin",
+  "entities": ["./src/entity/*.js"],
+  "logging": false,
+  "synchronize": true,
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
